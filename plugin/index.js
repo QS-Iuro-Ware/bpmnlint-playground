@@ -7,6 +7,10 @@ module.exports = {
         'playground/no-single-conditional-sequence-flow': 'error',
         'playground/no-unnamed-message': 'warn',
         'playground/message-start-event-with-incoming-message': 'error',
+        'playground/duplicates': 'error',
+        'playground/single-in-out-gateway': 'error',
+        'playground/no-timer-event': 'error',
+        'playground/multiple-start-events-sub-process': 'error',
       }
     },
     all: {
@@ -17,6 +21,10 @@ module.exports = {
         'playground/no-single-conditional-sequence-flow': 'error',
         'playground/no-unnamed-message': 'error',
         'playground/message-start-event-with-incoming-message': 'error',
+        'playground/duplicates': 'error',
+        'playground/single-in-out-gateway': 'error',
+        'playground/no-timer-event': 'error',
+        'playground/multiple-start-events-sub-process': 'error',
       }
     }
   }
